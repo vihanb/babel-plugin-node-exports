@@ -1,0 +1,25 @@
+{
+  "name": "babel-plugin-node-exports",
+  "version": "1.0.0",
+  "description": "Simplifies compiled CommonJS exports when working with node.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel -d ./lib ./src",
+    "prepublish": "babel -d ./lib ./src --minified"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vihanb/babel-plugin-node-exports.git"
+  },
+  "author": "Vihan B <vihan@vihan.org> (vihan.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vihanb/babel-plugin-node-exports/issues"
+  },
+  "homepage": "https://github.com/vihanb/babel-plugin-node-exports#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  }
+}
