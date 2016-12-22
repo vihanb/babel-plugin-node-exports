@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-node-exports",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simplifies compiled CommonJS exports when working with node.",
   "main": "lib/index.js",
   "scripts": {
